@@ -1,7 +1,8 @@
 # BULK_IOC_Analyser
 This tool can be used to check IOCs on VirusTotal and Other OSINT Tools in Bulk (URL, Domain, Hashes, IPs).
 
-- How to Use the Application
+**How to Use the Application**
+
 Launch the Application
 - Start the program to open the interface.
 
