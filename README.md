@@ -1,24 +1,50 @@
 # BULK_IOC_Analyser
-This tool can be used to check IOCs on VirusTotal and Other OSINT Tools in Bulk (URL, Domain, Hashes, IPs).
 
-**How to Use the Application**
+# 🛡️ IOC Reputation Checker using VirusTotal API
 
-Launch the Application
-- Start the program to open the interface.
+This Python-based tool helps cybersecurity analysts bulk-check the reputation of IOCs (Indicators of Compromise) using the [VirusTotal API](https://www.virustotal.com/). Whether you're triaging alerts or deep-diving into incident response, this tool saves time by eliminating repetitive lookups.
 
-Select the Input CSV File
-- Click the "Browse" button next to "CSV File" and choose your input file.
-- The file must be in .csv format.
-- The first row should contain the header "entry".
+---
 
-Provide the VirusTotal API Key
-- Click the "Browse" button next to "VirusTotal API Key" to upload your API key in a .txt file.
-- The file should contain only the API key (no additional text).
-- Alternatively, you can manually enter the API key in the provided text box.
+## 🚀 Features
 
-Set the Output File Name
-- You can just enter a name of your choice for the output file (no need to add an extension).
-- The result will be saved as an .xlsx Excel file.
+- Upload a CSV file with IOCs (first row must be `entry`)
+- Lookup reputation data from VirusTotal
+- Export results to an `.xlsx` Excel file
+- Easy GUI interface – no need to touch code
+- API key can be provided via text file or manually entered
 
-Output File Location
-- The output file will be saved in the same directory where you selected the input CSV file.
+---
+
+## 🧭 How to Use
+
+1. **Run the Application**
+   - Launch the GUI Python script.
+
+2. **Upload the CSV File**
+   - Click **Browse** next to **"CSV File"**.
+   - The CSV must have a header row containing `**entry**`.
+
+3. **Enter VirusTotal API Key**
+   - Click **Browse** to select a `.txt` file containing the API key (no extra text), or type it manually.
+
+4. **Name Your Output File**
+   - Provide a name for the output file (no extension needed).
+   - Output will be a `.xlsx` file saved in the same directory as the input CSV.
+
+---
+
+## 🌐 Coming Soon: Web-Based Version
+No installations. Just open in your browser and go. Stay tuned!
+
+---
+
+## 🤝 Contributing
+- Found a bug? Open an issue.
+- Want to improve functionality? Fork and submit a PR.
+- Suggestions and feedback? Drop me a message or open a discussion!
+
+---
+
+## 🙌 Acknowledgments
+Thanks to [VirusTotal](https://www.virustotal.com/) for providing the API that powers this project.
